@@ -26,4 +26,4 @@ This project is not for malicious use. Use it responsibly in controlled, ethical
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Tesla-Clone-Phishing-Edu.git
+   git clone https://github.com/hussain-jawaid/Tesla-Clone-Phishing-Edu
