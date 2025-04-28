@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+  color: #161a20;
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+#tesla-logo img {
+  width: 120px;
+}
+
+#language-modal button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+#language-modal i {
+  font-size: 20px;
+}
+
+#language-modal button:hover {
+  background-color: #f0f0f0;
+}
+
+#container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: #f4f4f4;
+  border: 1px solid transparent;
+  padding: 12px;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover {
+  border: 1px solid #d0d0d0;
+}
+
+#submit-button {
+  background-color: #3e6ae1;
+  color: #fff;
+  border: none;
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  background-color: #3454c1;
+}
+
+a {
+  text-align: center;
+  font-size: 14px;
+  color: #161a20;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#or-separator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+#or-separator span {
+  flex: 1;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+#or-separator p {
+  font-size: 14px;
+  color: #5c5e62;
+}
+
+#create-button {
+  background-color: #f4f4f4;
+  border: none;
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#create-button:hover {
+  background-color: #e6e6e6;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 20px;
+}
+
+footer a {
+  font-size: 12px;
+  color: #5b5e62;
+}
